@@ -1,27 +1,26 @@
 'use strict';
 
-// const str = 'teS t';
+function first() {
+	// 
+	setTimeout(function () {
+		console.log(1);
+	}, 500);
+}
 
-// console.log(str[2] = 'd');
-// console.log(str.toUpperCase());
-// console.log(str.toLowerCase());
-// console.log(str);
+function second() {
+	console.log(2);
+}
 
-// const fruit = 'somes fruit';
+// first();
+// second();
 
-// console.log(fruit.indexOf('s'));
+function learnJS(lang, callback) {
+	console.log(`Я учу: ${lang}`);
+	callback();
+}
 
-// const logg = 'Hello world';
+function done() {
+	console.log('Я прошел этот урок');
+}
 
-// console.log(logg.slice(6, 11));
-
-// console.log(logg.substring(6, 11));
-
-// console.log(logg.substr(6, 5));
-
-// const num = 12.2;
-// console.log(Math.round(num));
-
-// const text = "12.2px";
-// console.log(parseInt(text));
-// console.log(parseFloat(text));
+learnJS('JavaScript', done);
