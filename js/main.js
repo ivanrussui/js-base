@@ -1,13 +1,18 @@
 'use strict';
 
 
-const arr = [1, 2, 3, 6, 8];
+const arr = [14, 12, 39, 6, 28];
+console.log(arr.sort(compareNum));
+
+function compareNum(a, b) {
+	return a - b;
+}
 // arr[99] = 0;
 // console.log(arr.length);
 // console.log(arr);
 
 arr.forEach(function(item, i, arr) {
-	console.log(`${i}: ${item} внутри массива ${arr}`);
+	// console.log(`${i}: ${item} внутри массива ${arr}`);
 });
 
 // arr.pop();
@@ -17,9 +22,14 @@ arr.forEach(function(item, i, arr) {
 // 	console.log(arr[i]);
 // }
 
-// for (let value of arr) {
-// 	console.log(value);
-// }
+for (let value of arr) {
+	// console.log(value);
+}
+
+// const str = prompt('', '');
+// const products = str.split(', ');
+// products.sort();
+// console.log(products.join('; '));
 
 // // function first() {
 // // 	setTimeout(function () {
@@ -133,3 +143,6 @@ arr.forEach(function(item, i, arr) {
 // // }
 
 // // console.log(counter);
+
+
+
