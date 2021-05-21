@@ -95,8 +95,13 @@ console.log(numbers);
 // }
 
 // for (let value of arr) {
-// 	console.log(value);
+// 	// console.log(value);
 // }
+
+// const str = prompt('', '');
+// const products = str.split(', ');
+// products.sort();
+// console.log(products.join('; '));
 
 // // function first() {
 // // 	setTimeout(function () {
@@ -210,3 +215,6 @@ console.log(numbers);
 // // }
 
 // // console.log(counter);
+
+
+
