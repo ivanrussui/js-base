@@ -1,59 +1,33 @@
 'use strict';
 
-// To String
+// let x = 5; alert( ++x );
 
-// 1)
-// console.log(typeof(String(null)));
-// console.log(typeof(String(4)));
+// [ ] + false - null + true   ? False || undef
+// console.log([] + false - null + true);
+// let y = 1; let x = y = 2; alert(x);
 
-// 2)
-// console.log(typeof(5 + ''));
-// console.log(typeof(null + ''));
-// console.log(typeof(undefined + ''));
-// console.log(typeof(false + ''));
-// console.log(typeof(Array + ''));
+// console.log([] + 1 + 2);
 
-// const num = 5;
+// alert( "1"[0]);
 
-// console.log('https://vk.com/catalog/' + num);
+// console.log(2 && 1 && null && 0 && undefined);
+// И запинается на лжи
+// ИЛИ запинается на правде
 
-// const fontSize = 26 + 'px';
+// console.log(!!( 1 && 2 ) === (1 && 2));
 
-// console.log(fontSize);
+// по этому заданию почитай коменты и если что задай вопрос
+// alert( null || 2 && 3 || 4 );
+// alert(2 && 3);
+// console.log(3 || 4);
 
+// const a = [1, 2, 3];
+// const b = [1, 2, 3];
 
-// To Number
+// console.log(a == b);
 
-// 1)
-// console.log(typeof(Number('4')));
+// alert( +"Infinity" );
 
-// 2)
-// console.log(typeof(+'5'));
+// console.log("Ёжик" > "яблоко");
 
-// 3)
-// console.log(typeof(parseInt('15px', 10)));
-
-// let answ = +prompt('Hello', '');
-
-
-// To boolean
-
-// 0, '', null, undefined, NaN; - false
-// 1)
-// let switcher = null;
-
-// if (switcher) {
-// 	console.log('Working...');
-// }
-
-// switcher = 1;
-
-// if (switcher) {
-// 	console.log('Working...');
-// }
-
-// 2)
-console.log(typeof(Boolean('4')));
-
-// 3)
-console.log(typeof(!!'44'));
+// console.log( 0 || "" || 2 || undefined || true || falsе);
